@@ -11,7 +11,7 @@
  * @return {object}
  */
 
-function detectAnimationEnd(effect) {
+function detectAnimationEnd() {
 	const el = document.createElement('__testelement__');
 
 	const effects = [
